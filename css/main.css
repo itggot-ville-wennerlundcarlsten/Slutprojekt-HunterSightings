@@ -1,0 +1,22 @@
+body{
+    background-image: url("../img/background.jpg");
+}
+.header{
+    background-image: url("../img/title.png");
+    height: 200px;
+    background-repeat: no-repeat;
+}
+.kalle{
+    margin-left: 100px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+#form1{
+    margin-left: -50px;
+}
+#svgpoint{
+    border:2px solid;
+    border-radius: 100px;
+}
