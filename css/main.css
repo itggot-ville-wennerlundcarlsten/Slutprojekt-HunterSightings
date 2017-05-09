@@ -2,7 +2,7 @@ body{
     background-image: url("../img/background.jpg");
 }
 .header{
-    background-image: url("../img/title.png");
+    background-image: url("../img/title2.png");
     height: 200px;
     background-repeat: no-repeat;
 }
@@ -20,3 +20,49 @@ body{
     border:2px solid;
     border-radius: 100px;
 }
+table{
+    width: 300px;
+
+}
+th{
+    background: url("../img/metal.jpg") ;
+    height: 70px;
+    font-size: 300%;
+    font-family: Roboto;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow: black 0px 7px;
+
+}
+td{
+    color: white;
+    text-shadow: black 0px 3px;
+    font-family: Roboto;
+    font-size: 150%;
+    padding-left: 20px;
+    padding-top: 5px;
+    border: transparent 10px solid;
+    border-bottom: white 2px solid;
+    padding-bottom: 10px;
+}
+
+#th1{
+    border-right: white 1px solid;
+
+
+}
+#td1{
+    border-right:white 1px solid;
+
+
+}
+#th2{
+    border-left: 1px white solid;
+
+
+}
+#td2{
+    border-left:1px white solid;
+
+}
+
