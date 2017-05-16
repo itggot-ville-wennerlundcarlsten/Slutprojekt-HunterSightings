@@ -5,6 +5,7 @@ body{
     background-image: url("../img/title2.png");
     height: 200px;
     background-repeat: no-repeat;
+    margin-left:50px;
 }
 .kalle{
     margin-left: 100px;
@@ -15,6 +16,7 @@ body{
 }
 #form1{
     margin-left: -50px;
+    position: absolute;
 }
 #svgpoint{
     border:2px solid;
@@ -22,8 +24,14 @@ body{
 }
 table{
     width: 300px;
-
+    margin-top: -500px;
+    margin-left: -500px;
+    display: none;
 }
+.visible{
+    display:block;
+}
+
 th{
     background: url("../img/metal.jpg") ;
     height: 70px;
@@ -31,7 +39,7 @@ th{
     font-family: Roboto;
     padding-left: 20px;
     padding-right: 20px;
-    box-shadow: black 0px 7px;
+    box-shadow: black 0px 0px;
 
 }
 td{
