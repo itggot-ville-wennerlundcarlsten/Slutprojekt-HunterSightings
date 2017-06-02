@@ -5,8 +5,20 @@ function opentable(element){
     if(visibleTable != null)
         {visibleTable.classList.remove("visible");}
     table.classList.add("visible")
+}
+function openadding() {
+    var element = document.querySelector(".overlay.hide");
+    element.classList.remove("hide");
+    var kalle = document.querySelector(".adding.hide");
+    kalle.classList.remove("hide");
+    kalle.classList.add("open-adding");
 
-    //var element = document.querySelector()
-    //element.classlist.remove()
-    //element.classList.add()
+}
+function slidebackfunction() {
+    var kalle = document.querySelector(".overlay");
+    kalle.classList.add("hide");
+    var open = document.querySelector(".adding");
+    open.classList.remove("open-adding");
+    open.classList.add("hide");
+
 }
