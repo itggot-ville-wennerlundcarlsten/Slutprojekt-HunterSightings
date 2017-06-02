@@ -1,58 +1,13 @@
-
-
 <head>
 <!DOCTYPE html >
-
-
-
-
-
     <link rel="stylesheet" href="./css/main.css">
-
     <title>HunterSightings</title>
     </head>
-
 <body>
 <div class="header"></div>
-
-
-
 <div class="container">
-<form name="form" method="post" action="./3003" id="form">
-    <div>
-        <input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJMjkwNTIxODM4ZBgBBR5fX0NvbnRyb2xzUmVxdWlyZVBvc3RCYWNrS2V5X18WAQUJY2JTb3VuZE9uA70eD7YyCPGke9dk2nL1fm16TYBwSktre9VDzEf7+5E=" />
-    </div>
-
-
-
+<form name="form" id="form">
     <div class="kalle">
-
-
-
-
-
-
-
-        <div id="contentwrapper">
-            <div id="leftcol">
-
-
-                <div id="maincontent">
-
-
-
-
-
-
-
-
-                    <div id="gameselect">
-
-                        <div class="big-box" style="margin-top: 0px;">
-
-
-                            <div id="svgWrapper">
-
                                 <div id="svgDiv" class="svgMap"><?xml version="1.0" encoding="utf-8"?>
                                     <!-- Generator: Adobe Illustrator 18.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
                                     <svg version="1.1" id="svgpoint" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -677,19 +632,9 @@
 <line fill="none" stroke="#010202" stroke-miterlimit="10" x1="243.149" y1="493.781" x2="411.698" y2="662.33"/>
 </svg>
                                 </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
     </div>
-
-
 </form>
 </div>
-
-
 <div class="infotab">
     <table cellspacing="0" id="california" class="table" for="path7">
         <tr>
@@ -1744,15 +1689,15 @@
     </table>
 </div>
 <button onclick="slidebackfunction()" class="overlay hide"></button>
-
 <div class="action-button-container">
     <button class="action-button" onclick="openadding()">
-        <img src="img/plus.png">
+        <div class="action-button-plus"></div>
     </button>
 </div>
 <div class="adding hide">
     <form id="report" name="report" action="thank.html">
-        <select class="state" name="state" id="state">
+        <div class="adding-form">
+            State: <select class="state" name="state" id="state">
             <option value=" Alabama"> Alabama</option>
             <option value=" Alaska"> Alaska</option>
             <option value=" Arizona"> Arizona</option>
@@ -1804,14 +1749,15 @@
             <option value=" Wisconsin"> Wisconsin</option>
             <option value=" Wyoming"> Wyoming</option>
         </select>
-        Creature: <input type="text" name="creature" id="creature"><br>
-        <input type="submit" value="Report">
+            <div class="adding-form-creature">
+                Creature: <input type="text" name="creature" id="creature"><br>
+            </div>
+        </div>
+        <div class="adding-form-report">
+            <input type="submit" value="Report">
+        </div>
     </form>
 </div>
-
-
-
-
 <script src="js/main.js"></script>
 
 </body>
