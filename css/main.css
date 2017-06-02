@@ -198,5 +198,125 @@ td{
     font-size: 2em;
 }
 
+@media screen and (max-width: 325px) {
+    body{
+        background-image: url("../img/background-320.jpg");
+        margin: 0;
+    }
+    .header{
+        background-image: url("../img/header-320.png");
+        height: 43px;
+        margin-left: 0;
+    }
+    #svgpoint{
+        max-width: 90%;
+        border: none;
+    }
+    #svgDiv{
+        width: 320px;
+        height: 525px;
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        left:-111px;
+        top:-195px;
+    }
+    .kalle{
+        margin:0;
+    }
+    .action-button{
+        position: absolute;
+        left:255px;
+        top: 500px;
+        width: 56px;
+        height: 56px;
+    }
+    .action-button-plus{
+        background-image: url("../img/ic_add_white_24dp_1x.png");
+        width: 24px;
+        height: 24px;
+    }
+    .adding{
+        width: 320px;
+        height: 500px;
+        position: absolute;
+        left: 9px;
+        top: 500px;
+    }
+    th {
+        background: url("../img/metal.jpg");
+        font-size: 70%;
+        font-family: Roboto;
+        padding: 5px;
+        box-shadow: black 0px 0px;
+
+    }
+
+    td {
+        color: white;
+        text-shadow: black 0px 3px;
+        font-family: Roboto;
+        font-size: 70%;
+        padding-left: 20px;
+        padding-top: 5px;
+        border: transparent 10px solid;
+        border-bottom: white 2px solid;
+        padding-bottom: 10px;
+    }
+
+    #th1 {
+        border-right: white 1px solid;
+
+    }
+
+    #td1 {
+        border-right: white 1px solid;
+        font-family: sans-serif;
+
+    }
+
+    #th2 {
+        border-left: 1px white solid;
+
+    }
+
+    #td2 {
+        border-left: 1px white solid;
+        font-family: sans-serif;
+    }
+
+    .infotab {
+        position: absolute;
+        margin-left: 516px;
+        margin-top: 743px;
+    }
+    .infoheader {
+        color: white;
+        background: none;
+        font-family: "Arial Black";
+        font-size: 1.5em;
+        padding-bottom: 0;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
