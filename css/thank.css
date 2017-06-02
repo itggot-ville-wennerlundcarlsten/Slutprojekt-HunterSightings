@@ -34,3 +34,16 @@ body{
 .button a:hover{
     background-color: black;
 }
+
+@media screen and (max-width: 325px){
+    body{
+        background-image: url("../img/background-320.jpg");
+        height: 568px;
+    }
+    .header{
+        background-image: url("../img/thank-320.png");
+        height: 43px;
+        margin-left: -10px;
+        margin-top: 110px;
+    }
+}
