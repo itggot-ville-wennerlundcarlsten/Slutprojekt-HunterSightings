@@ -19,8 +19,8 @@ body{
     position: absolute;
 }
 #svgpoint{
-    border:2px solid;
-    border-radius: 100px;
+    border: none;
+
 }
 table{
     width: 300px;
@@ -296,6 +296,127 @@ td{
         font-family: "Arial Black";
         font-size: 1.5em;
         padding-bottom: 0;
+    }
+}
+@media only screen and (min-width: 1024px) and (max-width: 1026px) {
+    body{
+        background-image: url("../img/background-1024.jpg");
+        width: 768px;
+
+        height: auto;
+        margin:0;
+    }
+    .header{
+        background-image: url("../img/header-1024.png");
+        width: 1024px;
+        height: 137px;
+        margin: 0;
+    }
+    #svgpoint{
+        max-width: 90%;
+        border: none;
+    }
+    #svgDiv{
+        width: 800px;
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        left:-90px;
+        top:-90px;
+    }
+    .kalle{
+        margin:0;
+    }
+    .action-button{
+        position: absolute;
+        left:945px;
+        top: 695px;
+        width: 56px;
+        height: 56px;
+    }
+    .action-button-plus{
+        background-image: url("../img/ic_add_white_24dp_1x.png");
+        width: 24px;
+        height: 24px;
+    }
+    .adding {
+        width: 1024px;
+        height: 400px;
+        z-index: 20;
+        position: absolute;
+        background-color: white;
+        margin-top: 568px;
+        margin-left: 0px;
+        font-family: Arial;
+    }
+    @keyframes open {
+        from {
+            margin-top: 568px;
+        }
+        to {
+            margin-top: -489px
+        }
+    }
+    th {
+        background: url("../img/metal.jpg");
+        font-size: 141%;
+        font-family: Roboto;
+        padding: 0px;
+        box-shadow: black 0px 0px;
+
+    }
+
+    td {
+        color: white;
+        text-shadow: black 0px 3px;
+        font-family: Roboto;
+        font-size: 70%;
+        padding-left: 0px;
+        padding-top: 0px;
+        border: transparent 10px solid;
+        border-bottom: white 2px solid;
+        padding-bottom: 0px;
+    }
+
+    #th1 {
+        border-right: white 1px solid;
+
+    }
+
+    #td1 {
+        border-right: white 1px solid;
+        font-family: sans-serif;
+
+    }
+
+    #th2 {
+        border-left: 1px white solid;
+
+    }
+
+    #td2 {
+        border-left: 1px white solid;
+        font-family: sans-serif;
+    }
+
+    .infotab {
+        position: absolute;
+        margin-left: 500px;
+        margin-top: 743px;
+    }
+    .infoheader {
+        color: white;
+        background: none;
+        font-family: "Arial Black";
+        font-size: 1.7em;
+        padding-bottom: 5px;
+    }
+    table {
+        width: 300px;
+        margin-top: -500px;
+        margin-left: -500px;
+        display: none;
+
     }
 }
 
